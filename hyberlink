@@ -1,0 +1,2 @@
+Worksheets("Sheet2").Visible = True
+Worksheets("Sheet2").Activate
