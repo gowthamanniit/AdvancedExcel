@@ -1,0 +1,4 @@
+debug.print("data" & var)
+
+  check immediate window: ctrl+g
+  
