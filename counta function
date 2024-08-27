@@ -1,0 +1,3 @@
+dim totuser as integer
+set sh=Thisworkbook.sheets("admin")
+totuser=Application.Worksheetfunction.countA(sh.Range("a:a"))
