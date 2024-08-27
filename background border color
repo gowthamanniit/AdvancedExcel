@@ -1,0 +1,4 @@
+ Sheet2.Range("a1", "d5").Interior.Color = RGB(0, 255, 0)
+    Sheet2.Range("a1", "d5").Interior.Color = RGB(255, 255, 255)
+    Sheet2.Range("a1", "d5").Borders.Color = vbCyan
+  
