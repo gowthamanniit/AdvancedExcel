@@ -1,0 +1,6 @@
+Dim c As Integer
+Private Sub CommandButton1_Click()
+' how to apply or run excel formula in VBA code
+c = Application.Evaluate("counta(c:c)")
+MsgBox c
+End Sub
