@@ -1,1 +1,22 @@
+Dim data, i, j, dis As Integer
+Dim test As Boolean
+Sub removeduplicates()
+dis = 2
 
+For i = 2 To 14
+    data = Sheet7.Cells(i, 3)
+    Debug.Print (data)
+    test = False
+    For j = i - 1 To 2 Step -1
+                'i=4  j=4 3  2
+                'i=5  j=5 4 3 2
+            If (data = Sheet7.Cells(j, 3)) Then
+                test = True
+            End If
+    Next j
+    If (test = False) Then
+        Sheet7.Cells(dis, 4) = data
+        dis = dis + 1
+    End If
+Next i
+End Sub
