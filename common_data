@@ -1,0 +1,20 @@
+Dim n, data, i, j, dis As Integer
+Sub akashcommon()
+n = 20
+dis = 2
+For i = 2 To n
+    data = Sheet7.Cells(i, 1)
+    For j = 2 To n
+        'i=2 j=2 3 4 5 6.......20
+        'i=3 j=2 3 4 5 6.......20
+        'i=4 j=2 3 4 5 6.......20
+        '..............
+        'i=20 j=2 3 4 5 6......20
+    
+    If (data = Sheet7.Cells(j, 2)) Then
+     Sheet7.Cells(dis, 3) = data
+     dis = dis + 1
+    End If
+    Next j
+Next i
+End Sub
