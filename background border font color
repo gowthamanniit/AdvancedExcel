@@ -1,0 +1,16 @@
+Set sh = ThisWorkbook.Sheets("logical")
+sh.Cells(8, 5).Interior.ColorIndex = 3
+sh.Cells(8, 5).Font.Color = vbWhite
+
+sh.Cells(1, 2).Borders.Weight = xlThick
+sh.Cells(1, 2).Borders.Color = vbBlue
+
+sh.Cells(1, 2).Borders.LineStyle = xlNone  'remove border
+
+Worksheets(1).Range("A1").Borders.LineStyle = xlDouble  xlThick  xlDash 
+
+xlHairline	
+xlMedium	
+xlThick	
+xlThin	
+
