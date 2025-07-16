@@ -1,0 +1,33 @@
+variable declaration:
+=====================
+variable?
+	The value change during execution of the program.
+	Temporary memory allocation.
+	variable name is user defined
+
+variablename rules:
+===================
+	-must start with alphabets (a-z)	
+	-do not start with numbers or _. but we can use second letter onwards.
+	-special chars not allowed except _(underscore)
+	~!@#$%^&*()+|}{":?><,./;'[]\=-
+	-space not allowed inbetween the variable name
+	- keywords or reserve words not allowd.
+	integer,single,boolean ,if else for while do elif end ................
+	
+syntax:
+
+dim variablename as datatype
+
+ex:
+dim mark as integer		ex: 123 8457 234
+dim sname as String		ex: "gowtham" "g@123" "12313" "Q#$asfd23"
+dim avg as single (float) 	ex: 98.234  99.1234 
+dim dob as date			ex: #10-Jan-2024#
+dim etime as time		ex: #11:10:00 PM#
+dim data as boolean		ex: true or false
+
+important note:
+
+	don't use name word in varibalename. because it will taken sheet name automatically.
+
